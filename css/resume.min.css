@@ -151,3 +151,11 @@ color:#5B9BD5
 a:active,a:focus,a:hover{
 color:#3F7FB5
 }
+
+.subheading a{
+font-family:'Open Sans',sans-serif;
+font-size:.95rem;
+font-weight:400;
+text-transform:none;
+}
+
