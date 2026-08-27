@@ -68,15 +68,18 @@ width:100%
 }
 
 #sideNav .navbar-brand .img-profile{
-width:15rem;
-height:15rem;
-max-width:none;
-max-height:none;
+width:17rem!important;
+height:17rem!important;
+max-width:17rem!important;
+max-height:17rem!important;
 object-fit:cover;
-border:none;
+border:none!important;
 border-radius:0!important;
-margin:0!important
+margin:0!important;
+padding:0!important;
+display:block
 }
+
 
 #sideNav .navbar-collapse{
 display:flex;
