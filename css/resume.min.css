@@ -63,22 +63,23 @@ display:flex;
 justify-content:flex-start;
 align-items:flex-start;
 margin:0;
-padding:1rem;
-width:100%
+padding:0;
+width:100%;
 }
 
 #sideNav .navbar-brand .img-profile{
-width:17rem!important;
+width:100%!important;
 height:17rem!important;
-max-width:17rem!important;
-max-height:17rem!important;
+max-width:none!important;
+max-height:none!important;
 object-fit:cover;
 border:none!important;
 border-radius:0!important;
 margin:0!important;
 padding:0!important;
-display:block
+display:block;
 }
+
 
 
 #sideNav .navbar-collapse{
