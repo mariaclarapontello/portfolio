@@ -159,3 +159,27 @@ font-weight:400;
 text-transform:none;
 }
 
+
+.language-switcher{
+margin-bottom:1.5rem;
+font-family:'Open Sans',sans-serif;
+font-size:.85rem;
+text-align:center
+}
+
+.language-switcher a{
+color:rgba(255,255,255,.9);
+text-decoration:none;
+font-weight:600
+}
+
+.language-switcher a:hover{
+color:#fff;
+text-decoration:underline
+}
+
+.language-switcher span{
+color:rgba(255,255,255,.6);
+margin:0 .4rem
+}
+
