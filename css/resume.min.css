@@ -72,10 +72,11 @@ h2{
     height:100vh;
   }
 
+
   #sideNav .navbar-brand{
     display:flex;
-    justify-content:flex-start;
-    align-items:flex-start;
+    justify-content:center;
+    align-items:center;
     margin:0;
     padding:0;
     width:100%;
@@ -87,12 +88,14 @@ h2{
     max-width:none!important;
     max-height:none!important;
     object-fit:cover;
+    object-position:center;
     border:none!important;
     border-radius:0!important;
     margin:0!important;
     padding:0!important;
     display:block;
   }
+
 
   #sideNav .navbar-collapse{
     display:flex;
@@ -113,8 +116,10 @@ h2{
 
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
     display:block;
+    text-align:right;
+    padding-right:2rem;
   }
-}
+
 
 section.resume-section{
   border-bottom:1px solid #dee2e6;
