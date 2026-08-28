@@ -169,30 +169,31 @@ a:hover{
   font-weight:400;
   text-transform:none;
 }
+/* SELETOR DE IDIOMA - PÁGINA PRINCIPAL */
 
-/* SELETOR DE IDIOMA */
+.language-switcher-main{
+  display:flex;
+  gap:12px;
+  margin-bottom:2.5rem;
+}
 
-.language-switcher{
-  margin-bottom:1.5rem;
+.language-switcher-main a{
+  display:inline-block;
+  padding:9px 18px;
+  border:2px solid #5B9BD5;
+  border-radius:6px;
+  color:#5B9BD5;
+  background-color:transparent;
   font-family:'Open Sans',sans-serif;
-  font-size:.85rem;
-  text-align:center;
-}
-
-.language-switcher a{
-  color:rgba(255,255,255,.9);
+  font-size:.9rem;
+  font-weight:700;
   text-decoration:none;
-  font-weight:600;
+  transition:all .2s ease;
 }
 
-.language-switcher a:hover{
+.language-switcher-main a:hover{
   color:#fff;
-  text-decoration:underline;
+  background-color:#5B9BD5;
+  border-color:#5B9BD5;
 }
-
-.language-switcher span{
-  color:rgba(255,255,255,.6);
-  margin:0 .4rem;
-}
-
 
