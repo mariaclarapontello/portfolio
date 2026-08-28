@@ -59,6 +59,9 @@ h2{
   text-transform:uppercase;
 }
 
+
+/* SIDEBAR - DESKTOP */
+
 @media (min-width:992px){
 
   #sideNav{
@@ -71,7 +74,6 @@ h2{
     width:17rem;
     height:100vh;
   }
-
 
   #sideNav .navbar-brand{
     display:flex;
@@ -96,7 +98,6 @@ h2{
     display:block;
   }
 
-
   #sideNav .navbar-collapse{
     display:flex;
     align-items:flex-start;
@@ -120,6 +121,10 @@ h2{
     padding-right:2rem;
   }
 
+} /* fecha o @media do desktop */
+
+
+/* SECTIONS */
 
 section.resume-section{
   border-bottom:1px solid #dee2e6;
@@ -150,6 +155,9 @@ section.resume-section .resume-item .resume-date{
   }
 }
 
+
+/* COLORS */
+
 .bg-primary{
   background-color:#5B9BD5!important;
 }
@@ -174,7 +182,9 @@ a:hover{
   font-weight:400;
   text-transform:none;
 }
-/* SELETOR DE IDIOMA - PÁGINA PRINCIPAL */
+
+
+/* SELETOR DE IDIOMA */
 
 .language-switcher-main{
   display:flex;
@@ -203,16 +213,16 @@ a:hover{
 }
 
 
-  .company-link {
-  color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-decoration: none;
+/* LINKS DAS EMPRESAS */
+
+.company-link{
+  color:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+  text-decoration:none;
 }
 
-.company-link:hover {
-  color: inherit;
-  text-decoration: underline;
+.company-link:hover{
+  color:inherit;
+  text-decoration:underline;
 }
-
-
